@@ -1,0 +1,15 @@
+{
+  "name": "FU_GPA",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://fap.fpt.edu.vn/Grade/StudentTranscript.aspx"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "FU_GPA"
+  }
+}
